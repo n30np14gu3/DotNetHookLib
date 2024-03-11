@@ -12,7 +12,7 @@ namespace ExampleApp
 
             for (int i = 0;; i++)
             {
-                Console.Write(example.GetHello());
+                Console.WriteLine(example.GetHello());
                 example.UpdateName($"Ivan_{i}");
                 Thread.Sleep(1000);
             }
